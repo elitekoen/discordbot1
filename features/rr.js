@@ -1,4 +1,4 @@
-const messageSchema = require('../../schemas/message-schema')
+const messageSchema = require('../schemas/message-schema')
 
 const cache = {} // { guildId: [message, { Emoji: RoleID }] }
 
