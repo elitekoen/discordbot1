@@ -13,6 +13,7 @@ const client = new DiscordJS.Client({
 
 client.once('ready', () => {
 
+    client.user.setActivity(`a/help`)
     console.log('bot is online')
     new WOKCommands(client, {
         commandsDir: 'commands',
@@ -37,6 +38,10 @@ client.once('ready', () => {
             {
                 name: 'moderation',
                 emoji: '🚨'
+            },
+            {
+                name: 'fun',
+                emoji: '🎮'
             }
         ])
 })
