@@ -1,0 +1,6 @@
+{
+    "token": "Input token here",
+    "prefix": "Input preffered prefix",
+    "mongoPath": "Input mongoDB path",
+
+}
